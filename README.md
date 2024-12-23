@@ -8,14 +8,14 @@
 
  - Escribimos en una nueva línea de comando:
 
-  $:/   nc -l -p 1234   
+  $:/   nc -l -v -p 1234   
 
   .Y pulsamos intro automáticamente esta abierto el enlace de comunicación.
 
 
  - En otro dispositivo, conectado a la misma red abrimos terminal:
 
-  $:/   nc ((ip de la máquina de enlace)) 1234       .
+  $:/   nc -v ((ip de la máquina de enlace)) 1234       .
   .Y intro, separamos con un espacio e introducimos ip sin parentesis, espacio y 1234.
 
  - Estamos dentro entre dispositivos. 
